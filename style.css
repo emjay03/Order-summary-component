@@ -1,0 +1,159 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Red Hat Display', sans-serif;
+    
+    }
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+    
+        background-repeat: no-repeat;
+    
+        background-image: url('./images/pattern-background-desktop.svg');
+        background-color: hsl(225, 100%, 94%);
+    }
+    
+    .parent-container {
+    
+    
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    
+    .box-container {
+        background-color: white;
+        max-width: 450px;
+        margin: auto;
+        height: auto;
+        border-radius: 20px;
+    }
+    
+    .box-container img {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .desc {
+        width: 100%;
+    
+        padding: 20px 0 20px 0;
+        text-align: center;
+    
+    
+    
+    }
+    
+    .desc-box {
+        padding: 10px;
+    }
+    
+    .desc h2 {
+        color: hsl(223, 47%, 23%);
+        padding: 10px 0 10px 0;
+        font-weight: 900;
+    }
+    
+    .desc p {
+        color: hsl(224, 23%, 55%);
+        font: 16px;
+        line-height: 24px;
+        padding: 0 50px 0 50px;
+    }
+    
+    .annual {
+        margin: 0 20px 0 20px;
+        padding: 20px 10px 20px 10px;
+    
+    
+    }
+    
+    .annual-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+        padding: 12px 40px 12px 40px;
+        gap: 40px;
+    
+    
+    }
+    
+    .box-annual {
+        display: flex;
+        gap: 20px;
+        color: hsl(223, 47%, 23%);
+    
+    
+    }
+    
+    .box-annual h3 {
+        text-align: left;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    
+    .box-annual h3 span {
+        font-weight: 500;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .annual-parent a {
+        text-decoration: none;
+        color: hsl(245, 75%, 52%);
+        font-weight: 700;
+    
+    }
+    
+    .annual-parent a:hover {
+        color: rgba(114, 128, 167, 1);
+    }
+    
+    .div-btn {
+    
+        padding: 10px 30px 10px 30px;
+    }
+    
+    .btn-proc {
+        background-color: hsl(245, 75%, 52%);
+        color: hsl(225, 100%, 98%);
+        border: none;
+        font-size: 16px;
+        -webkit-box-shadow: 0px 28px 47px -18px rgba(114, 128, 167, 1);
+        -moz-box-shadow: 0px 28px 47px -18px rgba(114, 128, 167, 1);
+        box-shadow: 0px 28px 47px -18px rgba(114, 128, 167, 1);
+        border-radius: 10px;
+        width: 100%;
+        font-weight: 700;
+        padding: 15px 40px 15px 40px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+    .btn-proc:hover {
+        background-color: rgba(114, 128, 167, 1);
+    }
+    
+    .btn-cancel {
+        border: none;
+        background-color: transparent;
+        margin-top: 24px;
+        width: 100%;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 700;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .btn-cancel:hover {
+        color: hsl(223, 47%, 23%);
+    }
+    
